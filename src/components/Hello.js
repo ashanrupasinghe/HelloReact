@@ -8,7 +8,7 @@ const Hello = () => {
 	)*/
 	
 	//return React.createElement('div',null,'<h1>Helo Rupasinghe</h1>')
-	return React.createElement('div',null, React.createElement('h1',null,'Helo Rupasinghe'))
+	return React.createElement('div',{id:'hello', className:'world'}, React.createElement('h1',null,'Helo Rupasinghe'))
 }
  
  export default Hello;
